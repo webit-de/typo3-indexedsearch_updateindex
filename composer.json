@@ -1,0 +1,15 @@
+{
+  "name": "webit-de/indexedsearch-updateindex",
+  "description": "Updates the search indexafter create/edit/delete actions on pages",
+  "homepage": "https://github.com/webit-de/typo3-indexedsearch_updateindex/",
+  "license": "GPL-2.0+",
+  "type": "typo3-cms-extension",
+  "require": {
+    "php": ">=5.5.0",
+    "typo3/cms-core": "^4.5 || ^6.2"
+  },
+  "replace": {
+    "indexedsearch_updateindex": "self.version",
+    "typo3-ter/indexedsearch_updateindex": "self.version"
+  }
+}
